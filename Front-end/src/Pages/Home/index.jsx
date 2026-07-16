@@ -16,7 +16,7 @@ function Home() {
         //Essa div engloba dodo o Home 
         <div className="GHome">
 
-
+            <h1>Home</h1>
         </div>
 
     )

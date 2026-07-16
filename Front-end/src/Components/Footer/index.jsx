@@ -8,7 +8,7 @@ import { Link } from "react-router-dom"
 function Footer() {
     return (
         <footer>
-            <p>rodapé </p>
+            <p>rodapé</p>
 
         </footer>
     )
