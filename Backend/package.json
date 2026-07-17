@@ -1,0 +1,16 @@
+{
+  "name": "backend",
+  "version": "0.0.1",
+  "description": "Trabalho de backend do AEO",
+  "license": "ISC",
+  "author": "Equipe AEO",
+  "type": "module",
+  "main": "test.js",
+  "scripts": {
+    "test": "jest",
+        "dev": "node --watch index.js"
+  },
+  "dependencies": {
+    "express": "^5.2.1"
+  }
+}
