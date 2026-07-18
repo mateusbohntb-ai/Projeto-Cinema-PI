@@ -8,7 +8,7 @@ import { Link } from "react-router-dom"
 function Footer() {
     return (
         <footer>
-            <p>rodapé</p>
+            <p>Todos os direitos a Cine API </p>
 
         </footer>
     )
