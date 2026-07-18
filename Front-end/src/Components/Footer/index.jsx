@@ -1,4 +1,3 @@
-
 // Import do estilo do proprio arquivo 
 import "./style.css"
 
