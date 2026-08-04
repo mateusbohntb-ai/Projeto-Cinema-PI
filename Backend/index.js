@@ -1,5 +1,5 @@
 import express from 'express'
-import ingressos from './repository/ingressos'
+import ingressos from './router/ingressos.js'
 
 const app = express()
 
@@ -9,4 +9,4 @@ app.use('/api/v1/ingressos', ingressos)
 
 app.listen(3000, () => {
     console.log("Servidor escutando na porta 3000")
-}) 
+})
