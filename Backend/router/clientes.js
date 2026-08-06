@@ -3,19 +3,17 @@ import bco from "../repository/bco.js"
 
 const router = express.Router()
 
-router.get("/Buscar" ,(req,res) => {
 
-
-     const id = req.params.id
+router.get("/Buscar", (req, res) => {
+    const { id } = req.query   // /Buscar?id=1
     const pessoa = bco.find(it => it.id == id)
     if (!pessoa) {
-        res.send({ message: "Pessoa não encontrada" })
+        res.send({ message: "pessoa não encontrada" })
         return
     }
-  
-  res.status(200).send({
-    message: pessoa
-  });
+    res.status(200).send({
+        message: pessoa
+    });
 })
 
 router.get("/criar", (req, res) => {
